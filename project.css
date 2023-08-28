@@ -1,0 +1,175 @@
+.bg
+{
+    background-image:url('./images/background.png') ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#navibar
+{
+    /* transform: rotate(90deg); */
+    margin-left: 300px;
+    border-color: white;
+    border-style: dashed;
+    border-collapse: separate;
+    border-spacing: 10px;
+    border-radius: 100cm  !important;
+    
+}
+/* .bar
+{
+    background-image: url("./images/asidepanel.png");
+    margin-left: 360px; 
+    transform: rotate(180deg);
+} */
+/* .rtx3090 */
+.buyn
+{
+    background-color: green;
+    color: white;
+}
+.buyn:hover
+{
+    background-color: white;
+    color: green;
+}
+.rt39image
+{
+    opacity: 70%;
+}
+.r39
+{
+    font-family: "share tech";
+    src: url("ShareTech-Regular.ttf");
+    background-image:url('./images/background2.png') ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.amd
+{
+    background-image:url('./images/amdb.png') ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.txt
+{
+  color: #e1dbd7;
+}
+.about
+{
+    color: #e1dbd7;
+    font-size: 0.7cm;
+}
+.abt
+{
+    color: #e1dbd7;
+    text-align: left;
+}
+.features
+{
+    text-align: center;
+    color: #e1dbd7;
+    font-size: 2cm;
+}
+.feat {
+    position: absolute;
+    left: 50%;
+    transform: translate( -50%);
+    color: #e1dbd7;
+}
+.feat2{
+    position: relative;
+    top: 1340px;
+    text-align: center;
+    color: #e1dbd7;
+}
+.slider1{
+    position: relative;
+    top: 1390px;
+    left: 29%;
+    width: 100%;
+    height: 450px;
+    width: 600px;
+    display: block;
+  }
+  
+  .slider2 {
+    position: relative;
+    top: 1390px;
+    left: 29%;
+    width: 100%;
+    height: 450px;
+    width: 600px;
+    display: none;
+  }
+  
+  .slider3 {
+    position: relative;
+    top: 1390px;
+    left: 29%;
+    width: 100%;
+    height: 450px;
+    width: 600px;
+    display: none;
+  }
+  .feat3{
+    position: relative;
+    top: 1440px;
+    text-align: center;
+    color: #e1dbd7;
+}
+.slider12{
+    position: relative;
+    top: 1390px;
+    left: 19%;
+    width: 100%;
+    height: 450px;
+    width: 900px;
+    display: block;
+  }
+  
+  .slider22 {
+    position: relative;
+    top: 1390px;
+    left: 19%;
+    width: 100%;
+    height: 450px;
+    width: 900px;
+    display: none;
+  }
+  
+  .slider32 {
+    position: relative;
+    top: 1390px;
+    left: 19%;
+    width: 100%;
+    height: 450px;
+    width: 790px;
+    display: none;
+  }
+
+
+  
+  ul.nav-pills {
+    top: 20px;
+    position: fixed;
+  }
+  div.col-sm-9 div {
+    height: 250px;
+    font-size: 28px;
+  }
+  #section1 {color: #fff; background-color: #1E88E5;}
+  #section2 {color: #fff; background-color: #673ab7;}
+  #section3 {color: #fff; background-color: #ff9800;}
+  #section4 {color: #fff; background-color: #00bcd4;}
+ 
+  
+  @media screen and (max-width: 810px) {
+    #section1, #section2, #section3, #section4 {
+      margin-left: 150px;
+    }
+  }
